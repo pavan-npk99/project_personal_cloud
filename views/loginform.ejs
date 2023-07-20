@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_own_cloud_login</title>
+    <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet"><link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <section class='login' id='login'>
+        <div class='head'>
+        <h1 class='company'>My Cloud</h1>
+        </div>
+        <p class='msg'>LogIn to Cloud</p>
+        <div class='form'>
+          <form action="/loginform" method="post">
+        <input type="text" name="name" placeholder='Username' class='text' id='username' required><br>
+        <input type="password" name="password" placeholder='Password' class='password'><br>
+        <button onclick="submit" class='btn-login' id='do-login'>Login</button>
+        <br><br>
+        <a href="/signupform" class='forgot'><u>Create a new account</u></a>
+          </form>
+        </div>
+      </section>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet"><link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <section class='login' id='login'>
+        <div class='head'>
+        <h1 class='company'>My Cloud</h1>
+        </div>
+        <p class='msg'>SignUp To Cloud</p>
+        <div class='form'>
+          <form action="/signupform" method="post">
+        <input type="text" name="name" placeholder='Username' class='text' id='username' required><br>
+        <input type="password" name="password" placeholder='Password' class='password'><br>
+        <input type="password" name="vaultnumber" placeholder='Vaultnumber' class='password'><br>
+        <button onclick="submit" class='btn-login' id='do-login'>SignIn</button>
+        <br><br>
+          </form>
+        </div>
+      </section>
+</body>
+</html>
